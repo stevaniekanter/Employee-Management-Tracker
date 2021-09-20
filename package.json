@@ -1,0 +1,22 @@
+{
+  "name": "employee-management-tracker",
+  "version": "1.0.0",
+  "description": "Employee Management Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevaniekanter/Employee-Management-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevaniekanter/Employee-Management-Tracker/issues"
+  },
+  "homepage": "https://github.com/stevaniekanter/Employee-Management-Tracker#readme",
+  "dependencies": {
+    "mysql2": "^2.3.0"
+  }
+}
