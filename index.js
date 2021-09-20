@@ -1,7 +1,7 @@
 const express = require('express');
 const mysql = require('mysql2');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3306;
 const app = express();
 
 // express middleware
@@ -11,7 +11,7 @@ app.use(express.json());
 // connect to dabase
 const db = mysql.createConnection({
     host: "localhost",
-    port: process.env.PORT || 3001,
+    port: process.env.PORT || 3306,
     user: "root",
     password: "track123",
     database: "employee_tracker",
