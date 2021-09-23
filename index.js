@@ -97,7 +97,7 @@ function viewRoles() {
     "Loading All Roles"
   );
 
-  connection.query("SELECT * from role", function (err, res) {
+  connection.query("SELECT * from employee_role", function (err, res) {
     console.table(res);
     if (err) throw err;
     console.log(
