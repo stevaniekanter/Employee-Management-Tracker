@@ -103,6 +103,7 @@ function viewRoles() {
     console.log(
         "Success! Here are all of the roles." 
     );
+    
     start();
   });
 }
@@ -135,7 +136,6 @@ function addDepartment() {
       );
     });
 }
-
 
 // add employee
 function addEmployee() {
@@ -218,8 +218,6 @@ function addRole() {
       );
     });
 };
-
-
 
 // update employee 
 function updateEmployee() {
